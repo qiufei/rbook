@@ -5,6 +5,8 @@ book:
   title: "islr"
   author: "邱飞"
   date: "3/23/2024"
+  body-footer: |
+    邱飞 &copy; 2008-2024  <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备 2024072710号-1</a>  <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33021202002511" target="_blank">浙公网安备 33021202002511号</a>
   chapters:
     - index.qmd
     - intro.qmd
@@ -13,11 +15,16 @@ book:
 
 bibliography: references.bib
 
+
+
+  
+
 format:
   html:
-    theme: cosmo
+    theme: journal
   # pdf:
   #   documentclass: scrreprt
 
 
 
+  
