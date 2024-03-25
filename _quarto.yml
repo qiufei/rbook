@@ -5,7 +5,7 @@ book:
   site-url: https://qiufei.site/rbook
   # 设置网站图标
   favicon: profile.jpg
-  cover-image: profile.png
+  cover-image: profile.jpg
   cover-image-alt: |
     本书的封面
   reader-mode: true
