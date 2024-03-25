@@ -2,9 +2,16 @@ project:
   type: book
 
 book:
-  title: "islr"
-  author: "邱飞"
-  date: "3/23/2024"
+  site-url: https://qiufei.site/rbook
+  # 设置网站图标
+  favicon: profile.jpg
+  cover-image: profile.png
+  cover-image-alt: |
+    本书的封面
+  reader-mode: true
+  title: R教材
+  author: 邱飞
+  date: 3/23/2024
   body-footer: |
     邱飞 &copy; 2008-2024  <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备 2024072710号-1</a>  <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33021202002511" target="_blank">浙公网安备 33021202002511号</a>
   chapters:
@@ -21,7 +28,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: journal
+    theme:
+     light: journal
+     dark: cyborg
   # pdf:
   #   documentclass: scrreprt
 
