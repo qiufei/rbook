@@ -4,11 +4,15 @@ project:
 book:
   site-url: https://qiufei.site/rbook
   search: true
+  navbar: 
+    left:
+      - text: "首页"
+        href: https://qiufei.site
+  title: R语言数据分析
   # 设置网站图标
   favicon: profile.jpg
   cover-image: profile.jpg
   reader-mode: true
-  title: R教材
   author: 邱飞
   date: 3/23/2024
   body-footer: |
