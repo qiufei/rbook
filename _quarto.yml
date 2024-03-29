@@ -3,11 +3,10 @@ project:
 
 book:
   site-url: https://qiufei.site/rbook
+  search: true
   # 设置网站图标
   favicon: profile.jpg
   cover-image: profile.jpg
-  cover-image-alt: |
-    本书的封面
   reader-mode: true
   title: R教材
   author: 邱飞
